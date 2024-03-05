@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat and dog puzzles</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      margin-top: 50px;
+    }
+
+    table,
+    tr,
+    td {
+      border: 0;
+      padding: 0;
+      border-spacing: 0;
+    }
+
+    table img {
+      vertical-align: middle;
+    }
+
+    caption {
+      font-size: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <table class="puzzle">
+    <caption>Cat</caption>
+    <tr class="puzzle__row">
+      <td rowspan="2" class="puzzle__item">
+        <img src="img/cat_01.jpg" alt="cat's right ear">
+      </td>
+      <td rowspan="2" class="puzzle__item">
+        <img src="img/cat_02.png" alt="cat's left ear">
+      </td>
+      <td class="puzzle__item">
+        <img src="img/cat_03.png" alt="mouse on the cat's ear">
+      </td>
+    </tr>
+    <tr class="puzzle__row">
+      <td rowspan="2" class="puzzle__item">
+        <img src="img/cat_04.png" alt="cat's tail">
+      </td>
+    </tr>
+    <tr class="puzzle__row">
+      <td colspan="2" class="puzzle__item">
+        <img src="img/cat_05.png" alt="cat's face">
+      </td>
+    </tr>
+    <tr class="puzzle__row">
+      <td class="puzzle__item">
+        <img src="img/cat_06.png" alt="cat's right wiskers">
+      </td>
+      <td colspan="2" class="puzzle__item">
+        <img src="img/cat_07.png" alt="cat's left wiskers">
+      </td>
+    </tr>
+  </table>
+
+  <table class="puzzle">
+    <caption>Dog</caption>
+    <tr class="puzzle__row">
+      <td class="puzzle__item">
+        <img src="img/ulybaka_01.jpg" alt="dog's right ear">
+      </td>
+      <td rowspan="3" class="puzzle__item">
+        <img src="img/ulybaka_02.jpg" alt="dog's face">
+      </td>
+      <td class="puzzle__item">
+        <img src="img/ulybaka_03.jpg" alt="dog's left ear">
+      </td>
+    </tr>
+    <tr class="puzzle__row">
+      <td rowspan="3" class="puzzle__item">
+        <img src="img/ulybaka_04.jpg" alt="dog's nose">
+      </td>
+      <td class="puzzle__item">
+        <img src="img/ulybaka_05.jpg" alt="dog's tail">
+      </td>
+    </tr>
+    <tr class="puzzle__row">
+      <td class="puzzle__item">
+        <img src="img/ulybaka_06.jpg" alt="dog's leg">
+      </td>
+    </tr>
+    <tr class="puzzle__row">
+      <td colspan="2" class="puzzle__item">
+        <img src="img/ulybaka_07.jpg" alt="dog's paws">
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
